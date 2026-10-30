@@ -1,6 +1,6 @@
 {
   "name": "tiktoken-fast",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A faster drop-in for the tiktoken npm package: the same token ids, from a Rust core compiled to WebAssembly",
   "license": "MIT",
   "repository": { "type": "git", "url": "git+https://github.com/s3bastiankoch/tiktoken-fast.git", "directory": "js" },
