@@ -4,7 +4,8 @@ crate (MIT), which redistributes them. OpenAI serves these files for its
 MIT-licensed tiktoken and states no separate licence for the files themselves. The texts under tests/corpora/
 are the public-domain and open-licence corpora of the Go benchmark in go/bench
 (Moby-Dick, Go standard library source under the Go BSD licence, 紅樓夢, and
-the Universal Declaration of Human Rights in three languages).
+the Universal Declaration of Human Rights in three languages); the Go licence
+is in tests/corpora/GO-LICENSE.
 
 src/backtrack.rs follows the backtracking byte-pair encoder of the bpe crate
 (github.com/github/rust-gems, MIT licence): the split table, the pair-validity
@@ -16,4 +17,9 @@ go/ is a fork of pkoukk/tiktoken-go (MIT licence); its own LICENSE and NOTICE
 list the upstream copyright and every change from the fork point.
 
 bench/fonts/ holds Inter (github.com/rsms/inter, SIL Open Font License 1.1),
-used only to render the README figures.
+used only to render the README figures; its licence is bench/fonts/OFL.txt.
+
+The Unicode character classes in src/ are built from the tables of the
+regex-syntax crate (MIT or Apache-2.0), which derive from the Unicode
+Character Database, Copyright (c) 1991-2024 Unicode, Inc., used under the
+Unicode License v3 (https://www.unicode.org/license.txt).

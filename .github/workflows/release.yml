@@ -73,7 +73,8 @@ jobs:
       - run: npm install -g npm@latest
       - run: cargo install wasm-bindgen-cli --version 0.2.100 --locked
       - run: js/pack.sh
-      - run: npm publish js/dist --access public
+      - run: npm publish --access public
+        working-directory: js/dist
 
   crates:
     runs-on: ubuntu-latest

@@ -4,10 +4,11 @@ build-backend = "maturin"
 
 [project]
 name = "tiktoken-fast"
-version = "0.1.1"
+version = "0.1.2"
 description = "A faster drop-in for tiktoken: the same token ids, encoded by a new Rust core"
 readme = "README.md"
-license = { text = "MIT" }
+license = "MIT"
+license-files = ["LICENSE", "NOTICE"]
 requires-python = ">=3.10"
 dependencies = ["tiktoken>=0.7"]
 classifiers = [
