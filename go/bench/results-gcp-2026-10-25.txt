@@ -1,0 +1,98 @@
+ok  	github.com/s3bastiankoch/tiktoken-go-fast	2.368s
+ok  	github.com/s3bastiankoch/tiktoken-go-fast	1.488s
+BenchmarkEncodeOrdinary/short_prose-8         	  831274	      1425 ns/op	 109.51 MB/s	     465 B/op	       1 allocs/op
+BenchmarkEncodeOrdinary/short_prose-8         	  804750	      1423 ns/op	 109.63 MB/s	     466 B/op	       1 allocs/op
+BenchmarkEncodeOrdinary/short_prose-8         	  786975	      1419 ns/op	 109.92 MB/s	     464 B/op	       1 allocs/op
+BenchmarkEncodeOrdinary/prose_4k-8            	   30476	     38937 ns/op	 105.91 MB/s	   21969 B/op	       2 allocs/op
+BenchmarkEncodeOrdinary/prose_4k-8            	   30261	     39145 ns/op	 105.35 MB/s	   22041 B/op	       2 allocs/op
+BenchmarkEncodeOrdinary/prose_4k-8            	   30607	     39372 ns/op	 104.74 MB/s	   22107 B/op	       2 allocs/op
+BenchmarkEncodeOrdinary/prose_64k-8           	    1902	    594553 ns/op	 110.36 MB/s	  316879 B/op	       2 allocs/op
+BenchmarkEncodeOrdinary/prose_64k-8           	    1912	    592819 ns/op	 110.68 MB/s	  313532 B/op	       2 allocs/op
+BenchmarkEncodeOrdinary/prose_64k-8           	    1900	    590869 ns/op	 111.04 MB/s	  314659 B/op	       2 allocs/op
+BenchmarkEncodeOrdinary/ascii_4k-8            	   39825	     29476 ns/op	 138.96 MB/s	   21921 B/op	       2 allocs/op
+BenchmarkEncodeOrdinary/ascii_4k-8            	   39810	     29378 ns/op	 139.43 MB/s	   21868 B/op	       2 allocs/op
+BenchmarkEncodeOrdinary/ascii_4k-8            	   39975	     29341 ns/op	 139.60 MB/s	   21867 B/op	       2 allocs/op
+BenchmarkEncodeOrdinary/cjk_4k-8              	   13734	     88265 ns/op	  46.41 MB/s	   79168 B/op	       6 allocs/op
+BenchmarkEncodeOrdinary/cjk_4k-8              	   13532	     88328 ns/op	  46.37 MB/s	   79687 B/op	       6 allocs/op
+BenchmarkEncodeOrdinary/cjk_4k-8              	   13866	     86720 ns/op	  47.23 MB/s	   78221 B/op	       6 allocs/op
+BenchmarkEncodeOrdinary/code_4k-8             	   36409	     32619 ns/op	 125.57 MB/s	   21994 B/op	       2 allocs/op
+BenchmarkEncodeOrdinary/code_4k-8             	   36324	     32308 ns/op	 126.78 MB/s	   21820 B/op	       2 allocs/op
+BenchmarkEncodeOrdinary/code_4k-8             	   35880	     32498 ns/op	 126.04 MB/s	   21938 B/op	       2 allocs/op
+BenchmarkEncodeOrdinary/longwords_4k-8        	   67682	     16291 ns/op	 251.42 MB/s	   40413 B/op	       3 allocs/op
+BenchmarkEncodeOrdinary/longwords_4k-8        	   70694	     16780 ns/op	 244.10 MB/s	   40673 B/op	       3 allocs/op
+BenchmarkEncodeOrdinary/longwords_4k-8        	   72051	     16469 ns/op	 248.71 MB/s	   40487 B/op	       3 allocs/op
+BenchmarkBytePairEncode-8                     	     634	   1866930 ns/op	  17.17 MB/s	  644040 B/op	    4582 allocs/op
+BenchmarkBytePairEncode-8                     	     632	   1858789 ns/op	  17.25 MB/s	  644040 B/op	    4582 allocs/op
+BenchmarkBytePairEncode-8                     	     633	   1865182 ns/op	  17.19 MB/s	  644040 B/op	    4582 allocs/op
+BenchmarkEncode/short_prose-8                 	  799483	      1461 ns/op	 106.75 MB/s	     471 B/op	       1 allocs/op
+BenchmarkEncode/short_prose-8                 	  779847	      1467 ns/op	 106.37 MB/s	     477 B/op	       1 allocs/op
+BenchmarkEncode/short_prose-8                 	  757780	      1461 ns/op	 106.79 MB/s	     470 B/op	       1 allocs/op
+BenchmarkEncode/prose_4k-8                    	   30280	     39704 ns/op	 103.87 MB/s	   22390 B/op	       2 allocs/op
+BenchmarkEncode/prose_4k-8                    	   29605	     39568 ns/op	 104.23 MB/s	   22404 B/op	       2 allocs/op
+BenchmarkEncode/prose_4k-8                    	   29763	     39309 ns/op	 104.91 MB/s	   22045 B/op	       2 allocs/op
+BenchmarkEncode/prose_64k-8                   	    1921	    594333 ns/op	 110.40 MB/s	  314622 B/op	       2 allocs/op
+BenchmarkEncode/prose_64k-8                   	    1920	    591398 ns/op	 110.94 MB/s	  314623 B/op	       2 allocs/op
+BenchmarkEncode/prose_64k-8                   	    1866	    591976 ns/op	 110.84 MB/s	  313587 B/op	       2 allocs/op
+BenchmarkEncode/ascii_4k-8                    	   39747	     29636 ns/op	 138.21 MB/s	   22080 B/op	       2 allocs/op
+BenchmarkEncode/ascii_4k-8                    	   39916	     29594 ns/op	 138.41 MB/s	   22026 B/op	       2 allocs/op
+BenchmarkEncode/ascii_4k-8                    	   40219	     29515 ns/op	 138.78 MB/s	   21866 B/op	       2 allocs/op
+BenchmarkEncode/cjk_4k-8                      	   13747	     88064 ns/op	  46.51 MB/s	   79011 B/op	       6 allocs/op
+BenchmarkEncode/cjk_4k-8                      	   13692	     89187 ns/op	  45.93 MB/s	   79487 B/op	       6 allocs/op
+BenchmarkEncode/cjk_4k-8                      	   13681	     88634 ns/op	  46.21 MB/s	   79799 B/op	       6 allocs/op
+BenchmarkEncode/code_4k-8                     	   36158	     32712 ns/op	 125.21 MB/s	   21995 B/op	       2 allocs/op
+BenchmarkEncode/code_4k-8                     	   36121	     32762 ns/op	 125.02 MB/s	   21937 B/op	       2 allocs/op
+BenchmarkEncode/code_4k-8                     	   35850	     32784 ns/op	 124.94 MB/s	   21879 B/op	       2 allocs/op
+BenchmarkEncode/longwords_4k-8                	   69825	     16554 ns/op	 247.43 MB/s	   40497 B/op	       3 allocs/op
+BenchmarkEncode/longwords_4k-8                	   66216	     16776 ns/op	 244.16 MB/s	   40737 B/op	       3 allocs/op
+BenchmarkEncode/longwords_4k-8                	   69446	     16826 ns/op	 243.43 MB/s	   40681 B/op	       3 allocs/op
+ok  	github.com/s3bastiankoch/tiktoken-go-fast/bench	7.962s
+encoding     workload               fast ns  upstream ns    tokEnc ns  vs upstr    vs Enc    vs Cnt
+cl100k_base  prose_4k                 39588       840724       422030    21.15x    10.69x     9.87x  [upstr 20.04-21.35]
+cl100k_base  prose_64k               605393     12925632      6700193    21.34x    11.09x    10.13x  [upstr 21.01-21.49]
+cl100k_base  ascii_4k                 27906       769465       320437    27.48x    11.57x    10.64x  [upstr 26.22-28.08]
+cl100k_base  cjk_4k                   60840       496779       415798     8.07x     6.81x     5.86x  [upstr 7.64-8.24]
+cl100k_base  code_4k                  34447      1078017       436197    31.20x    12.68x    11.85x  [upstr 30.90-31.86]
+cl100k_base  longwords_4k             17411       602637       492359    34.21x    28.39x    25.52x  [upstr 24.46-37.17]
+o200k_base   prose_4k                 47211      1114625       519142    23.51x    10.98x    10.26x  [upstr 22.69-23.73]
+o200k_base   prose_64k               720870     16823511      8101279    23.26x    11.23x    10.47x  [upstr 22.09-23.63]
+o200k_base   ascii_4k                 38633       938713       362922    24.08x     9.46x     8.80x  [upstr 23.67-24.44]
+o200k_base   cjk_4k                   58569       663950       497909    11.40x     8.55x     7.67x  [upstr 10.57-11.58]
+o200k_base   code_4k                  47627      1454298       554556    30.24x    11.61x    11.02x  [upstr 30.06-30.64]
+o200k_base   longwords_4k             16334       638957       499614    38.60x    30.41x    27.39x  [upstr 34.95-39.99]
+encoding     workload               fast ns  upstream ns    tokEnc ns  vs upstr    vs Enc    vs Cnt
+cl100k_base  prose_256k             2938991     51215457     34705564    17.47x    11.81x     8.36x  [upstr 15.42-18.58]
+cl100k_base  prose_1m              11701211    216708012    119084071    18.53x    10.61x     9.23x  [upstr 17.80-19.43]
+cl100k_base  prose_4m              44606289    885958515    491686774    19.65x    10.89x     9.43x  [upstr 18.33-19.90]
+cl100k_base  cjk_1m                55174749    146382980    146793254     2.61x     2.66x     1.80x  [upstr 2.50-2.66]
+cl100k_base  code_1m               11427668    320203625    135752826    28.02x    12.35x    10.70x  [upstr 26.57-28.57]
+o200k_base   prose_256k             3148712     70128374     32563704    22.46x    10.33x     9.68x  [upstr 21.59-23.82]
+o200k_base   prose_1m              12236533    281335189    144125216    22.99x    11.79x    10.55x  [upstr 22.28-23.06]
+o200k_base   prose_4m              50930325   1132233002    573630620    22.04x    11.30x    10.09x  [upstr 21.20-22.52]
+o200k_base   cjk_1m                67964982    183693196    163733380     2.73x     2.38x     1.90x  [upstr 2.62-2.75]
+o200k_base   code_1m               15358027    429477889    181218347    27.42x    11.78x    10.01x  [upstr 25.00-29.24]
+encoding     workload               fast ns  upstream ns    tokEnc ns  vs upstr    vs Enc    vs Cnt
+cl100k_base  udhr_zho                205573      2767859      1495126    13.48x     7.29x     6.61x  [upstr 12.99-13.96]
+cl100k_base  udhr_jpn                379948      2209554      1767637     5.82x     4.65x     4.37x  [upstr 5.75-5.86]
+cl100k_base  udhr_kor                167906      2227069      1430228    13.22x     8.54x     7.88x  [upstr 13.06-13.45]
+cl100k_base  hongloumeng_256k      16942950     46925679     37375018     3.13x     2.30x     2.24x  [upstr 2.77-3.46]
+cl100k_base  mobydick_256k          6572299     53734295     26589429     9.33x     4.10x     4.14x  [upstr 7.97-10.70]
+cl100k_base  gosrc_256k             5736728     62822583     34745536    10.99x     6.17x     4.84x  [upstr 10.85-12.06]
+o200k_base   udhr_zho                217992      3685546      1691362    16.83x     7.74x     7.20x  [upstr 16.61-17.04]
+o200k_base   udhr_jpn                394457      2822682      2203111     7.16x     5.60x     5.23x  [upstr 7.11-7.19]
+o200k_base   udhr_kor                150925      2801068      1573580    18.59x    10.43x     9.75x  [upstr 18.24-18.74]
+o200k_base   hongloumeng_256k      22509305     61735008     45944810     2.95x     2.03x     1.90x  [upstr 2.75-3.57]
+o200k_base   mobydick_256k          7518498     67047792     30174514     9.55x     4.02x     3.64x  [upstr 8.51-10.00]
+o200k_base   gosrc_256k             5351576     82262258     42437114    15.30x     7.03x     5.84x  [upstr 13.39-15.63]
+encoding     workload               fast ns  upstream ns    tokEnc ns  vs upstr    vs Enc    vs Cnt
+cl100k_base  prose_4k                 39661       846012       426563    21.26x    10.73x     9.90x  [upstr 21.17-21.34]
+cl100k_base  mobydick_256k          6673200     53213624     26411245     9.85x     3.96x     4.85x  [upstr 7.83-10.97]
+o200k_base   prose_4k                 47197      1119435       535579    23.70x    11.31x    10.35x  [upstr 23.47-23.82]
+o200k_base   mobydick_256k          7447286     64156380     30189562    10.40x     4.08x     4.30x  [upstr 9.39-12.05]
+p50k_base    prose_4k                 40534       810364       453760    19.78x    11.18x     9.93x  [upstr 19.15-20.03]
+p50k_base    mobydick_256k          6014574     50444052     26657543    10.41x     4.45x     5.30x  [upstr 8.35-11.21]
+r50k_base    prose_4k                 41104       806166       444448    19.48x    10.74x     9.76x  [upstr 19.25-19.73]
+r50k_base    mobydick_256k          6087332     50416135     26803943     9.98x     4.37x     4.43x  [upstr 8.32-10.56]
+PASS
+ok  	github.com/s3bastiankoch/tiktoken-go-fast/bench	159.611s
+
+[exited with code 0]

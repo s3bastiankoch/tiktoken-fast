@@ -1,0 +1,6 @@
+CPU(s):                                  4
+Vendor ID:                               ARM
+Model name:                              Neoverse-V2
+6.1.0-54-cloud-arm64
+rustc 1.99.1 (58cf8f9c3 2026-10-13)
+Python 3.11.2

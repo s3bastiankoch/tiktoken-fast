@@ -1,0 +1,27 @@
+tiktoken 0.14.0, tiktoken-fast 0.1.0, Python 3.11.2, linux
+  cl100k_base  English prose        encode                   tiktoken    13.1 MB/s   tiktoken-fast    47.9 MB/s    3.65x
+  cl100k_base  English prose        encode, fresh caches     tiktoken    13.0 MB/s   tiktoken-fast    46.0 MB/s    3.54x
+  cl100k_base  English prose        count tokens             tiktoken    13.4 MB/s   tiktoken-fast    65.2 MB/s    4.86x
+  cl100k_base  English prose        encode_batch, 8 threads  tiktoken     6.3 MB/s   tiktoken-fast    34.7 MB/s    5.53x
+  cl100k_base  Python source        encode                   tiktoken    12.0 MB/s   tiktoken-fast    60.4 MB/s    5.04x
+  cl100k_base  Python source        encode, fresh caches     tiktoken    12.0 MB/s   tiktoken-fast    59.1 MB/s    4.92x
+  cl100k_base  Python source        count tokens             tiktoken    12.3 MB/s   tiktoken-fast    80.1 MB/s    6.51x
+  cl100k_base  Python source        encode_batch, 8 threads  tiktoken     6.6 MB/s   tiktoken-fast    50.9 MB/s    7.69x
+  cl100k_base  chat-sized, 512 B    encode                   tiktoken    11.3 MB/s   tiktoken-fast    49.1 MB/s    4.34x
+  cl100k_base  chat-sized, 512 B    encode, fresh caches     tiktoken    11.3 MB/s   tiktoken-fast    50.4 MB/s    4.47x
+  cl100k_base  chat-sized, 512 B    count tokens             tiktoken    12.1 MB/s   tiktoken-fast    76.6 MB/s    6.36x
+  cl100k_base  chat-sized, 512 B    encode_batch, 8 threads  tiktoken     5.5 MB/s   tiktoken-fast    45.6 MB/s    8.30x
+  o200k_base   English prose        encode                   tiktoken    20.7 MB/s   tiktoken-fast    51.9 MB/s    2.51x
+  o200k_base   English prose        encode, fresh caches     tiktoken    20.9 MB/s   tiktoken-fast    48.2 MB/s    2.30x
+  o200k_base   English prose        count tokens             tiktoken    21.5 MB/s   tiktoken-fast    72.7 MB/s    3.38x
+  o200k_base   English prose        encode_batch, 8 threads  tiktoken    11.9 MB/s   tiktoken-fast    33.0 MB/s    2.78x
+  o200k_base   Python source        encode                   tiktoken    18.4 MB/s   tiktoken-fast    61.1 MB/s    3.33x
+  o200k_base   Python source        encode, fresh caches     tiktoken    18.4 MB/s   tiktoken-fast    58.1 MB/s    3.15x
+  o200k_base   Python source        count tokens             tiktoken    19.0 MB/s   tiktoken-fast    85.3 MB/s    4.49x
+  o200k_base   Python source        encode_batch, 8 threads  tiktoken    10.6 MB/s   tiktoken-fast    51.3 MB/s    4.84x
+  o200k_base   chat-sized, 512 B    encode                   tiktoken    16.6 MB/s   tiktoken-fast    48.4 MB/s    2.91x
+  o200k_base   chat-sized, 512 B    encode, fresh caches     tiktoken    16.6 MB/s   tiktoken-fast    51.0 MB/s    3.08x
+  o200k_base   chat-sized, 512 B    count tokens             tiktoken    18.4 MB/s   tiktoken-fast    76.1 MB/s    4.14x
+  o200k_base   chat-sized, 512 B    encode_batch, 8 threads  tiktoken     6.7 MB/s   tiktoken-fast    45.5 MB/s    6.77x
+
+same tokens in every call; tiktoken-fast is 4.27x faster (geometric mean), 2.30x to 8.30x

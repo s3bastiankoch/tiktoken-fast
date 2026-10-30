@@ -1,0 +1,8 @@
+cl100k_base chat-512B          batch x8, 4 vCPU: tiktoken   11.9 MB/s  tiktoken-fast   45.6 MB/s  3.83x
+o200k_base  chat-512B          batch x8, 4 vCPU: tiktoken   14.6 MB/s  tiktoken-fast   50.1 MB/s  3.44x
+cl100k_base wiki-en            batch x8, 4 vCPU: tiktoken   21.1 MB/s  tiktoken-fast  104.7 MB/s  4.96x
+o200k_base  wiki-en            batch x8, 4 vCPU: tiktoken   32.3 MB/s  tiktoken-fast  104.2 MB/s  3.23x
+cl100k_base wiki-zh            batch x8, 4 vCPU: tiktoken   21.2 MB/s  tiktoken-fast   79.0 MB/s  3.72x
+o200k_base  wiki-zh            batch x8, 4 vCPU: tiktoken   23.9 MB/s  tiktoken-fast   91.7 MB/s  3.83x
+cl100k_base en-0000016B        batch x8, 4 vCPU: tiktoken    0.9 MB/s  tiktoken-fast   21.0 MB/s  24.09x
+o200k_base  en-0000016B        batch x8, 4 vCPU: tiktoken    1.0 MB/s  tiktoken-fast   20.0 MB/s  19.91x

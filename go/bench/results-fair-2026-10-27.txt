@@ -1,0 +1,44 @@
+go version go1.26.0 linux/amd64
+go: downloading github.com/pkoukk/tiktoken-go-loader v0.0.2
+go: downloading github.com/tiktoken-go/tokenizer v0.8.1
+go: downloading github.com/dlclark/regexp2 v1.10.0
+go: downloading github.com/google/uuid v1.3.0
+go: downloading github.com/dlclark/regexp2/v2 v2.5.1
+=== RUN   TestFair
+cl100k_base book-gosrc         stream over tiktoken-go  12.70x  over tokenizer   5.58x  (262144 B; tokenizer differs on 0 of 1 documents)
+cl100k_base book-hongloumeng   stream over tiktoken-go   2.68x  over tokenizer   2.25x  (262146 B; tokenizer differs on 0 of 1 documents)
+cl100k_base book-mobydick      stream over tiktoken-go   8.48x  over tokenizer   4.15x  (262144 B; tokenizer differs on 0 of 1 documents)
+cl100k_base chat-512B          stream over tiktoken-go   4.37x  over tokenizer   2.95x  (4354957 B; tokenizer differs on 76 of 6000 documents)
+cl100k_base td-code-files      stream over tiktoken-go  22.85x  over tokenizer  11.97x  (1459823 B; tokenizer differs on 8 of 22 documents)
+cl100k_base td-synthetic-1MB   stream over tiktoken-go  24.87x  over tokenizer  10.11x  (1048576 B; tokenizer differs on 0 of 1 documents)
+cl100k_base wiki-ar            stream over tiktoken-go   6.10x  over tokenizer   4.49x  (1809671 B; tokenizer differs on 7 of 60 documents)
+cl100k_base wiki-de            stream over tiktoken-go   7.21x  over tokenizer   4.88x  (2152461 B; tokenizer differs on 20 of 60 documents)
+cl100k_base wiki-en            stream over tiktoken-go  12.59x  over tokenizer   7.28x  (1481421 B; tokenizer differs on 30 of 60 documents)
+cl100k_base wiki-es            stream over tiktoken-go   8.37x  over tokenizer   5.48x  (1485428 B; tokenizer differs on 9 of 60 documents)
+cl100k_base wiki-fr            stream over tiktoken-go   9.25x  over tokenizer   5.88x  (1884209 B; tokenizer differs on 27 of 60 documents)
+cl100k_base wiki-hi            stream over tiktoken-go   9.52x  over tokenizer   6.21x  (1431132 B; tokenizer differs on 6 of 60 documents)
+cl100k_base wiki-ja            stream over tiktoken-go   3.42x  over tokenizer   3.02x  (1681787 B; tokenizer differs on 21 of 60 documents)
+cl100k_base wiki-ko            stream over tiktoken-go   4.70x  over tokenizer   3.66x  (632511 B; tokenizer differs on 5 of 60 documents)
+cl100k_base wiki-ru            stream over tiktoken-go   4.66x  over tokenizer   3.64x  (2170287 B; tokenizer differs on 20 of 60 documents)
+cl100k_base wiki-th            stream over tiktoken-go   4.68x  over tokenizer   3.80x  (1480699 B; tokenizer differs on 9 of 60 documents)
+cl100k_base wiki-zh            stream over tiktoken-go   3.14x  over tokenizer   2.63x  (1357603 B; tokenizer differs on 15 of 60 documents)
+o200k_base  book-gosrc         stream over tiktoken-go  14.71x  over tokenizer   6.46x  (262144 B; tokenizer differs on 0 of 1 documents)
+o200k_base  book-hongloumeng   stream over tiktoken-go   2.57x  over tokenizer   2.09x  (262146 B; tokenizer differs on 0 of 1 documents)
+o200k_base  book-mobydick      stream over tiktoken-go   7.98x  over tokenizer   4.33x  (262144 B; tokenizer differs on 0 of 1 documents)
+o200k_base  chat-512B          stream over tiktoken-go   4.70x  over tokenizer   3.03x  (4354957 B; tokenizer differs on 100 of 6000 documents)
+o200k_base  td-code-files      stream over tiktoken-go  23.80x  over tokenizer  11.97x  (1459823 B; tokenizer differs on 8 of 22 documents)
+o200k_base  td-synthetic-1MB   stream over tiktoken-go  27.11x  over tokenizer  13.88x  (1048576 B; tokenizer differs on 0 of 1 documents)
+o200k_base  wiki-ar            stream over tiktoken-go   7.46x  over tokenizer   4.80x  (1809671 B; tokenizer differs on 13 of 60 documents)
+o200k_base  wiki-de            stream over tiktoken-go   7.15x  over tokenizer   4.50x  (2152461 B; tokenizer differs on 21 of 60 documents)
+o200k_base  wiki-en            stream over tiktoken-go  12.66x  over tokenizer   7.42x  (1481421 B; tokenizer differs on 41 of 60 documents)
+o200k_base  wiki-es            stream over tiktoken-go   9.76x  over tokenizer   5.81x  (1485428 B; tokenizer differs on 18 of 60 documents)
+o200k_base  wiki-fr            stream over tiktoken-go  10.43x  over tokenizer   5.92x  (1884209 B; tokenizer differs on 28 of 60 documents)
+o200k_base  wiki-hi            stream over tiktoken-go   7.59x  over tokenizer   4.50x  (1431132 B; tokenizer differs on 6 of 60 documents)
+o200k_base  wiki-ja            stream over tiktoken-go   3.69x  over tokenizer   3.02x  (1681787 B; tokenizer differs on 23 of 60 documents)
+o200k_base  wiki-ko            stream over tiktoken-go   6.03x  over tokenizer   4.19x  (632511 B; tokenizer differs on 13 of 60 documents)
+o200k_base  wiki-ru            stream over tiktoken-go   5.21x  over tokenizer   3.80x  (2170287 B; tokenizer differs on 27 of 60 documents)
+o200k_base  wiki-th            stream over tiktoken-go   3.01x  over tokenizer   2.43x  (1480699 B; tokenizer differs on 21 of 60 documents)
+o200k_base  wiki-zh            stream over tiktoken-go   3.08x  over tokenizer   2.55x  (1357603 B; tokenizer differs on 27 of 60 documents)
+--- PASS: TestFair (328.69s)
+PASS
+ok  	github.com/s3bastiankoch/tiktoken-fast/go/bench	328.703s

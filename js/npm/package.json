@@ -1,0 +1,24 @@
+{
+  "name": "tiktoken-fast",
+  "version": "0.1.0",
+  "description": "A faster drop-in for the tiktoken npm package: the same token ids, from a Rust core compiled to WebAssembly",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/s3bastiankoch/tiktoken-fast.git", "directory": "js" },
+  "keywords": ["tokenizer", "tiktoken", "bpe", "openai", "llm", "wasm"],
+  "main": "./node/tiktoken_fast_js.js",
+  "types": "./node/tiktoken_fast_js.d.ts",
+  "exports": {
+    ".": {
+      "types": "./node/tiktoken_fast_js.d.ts",
+      "node": "./node/tiktoken_fast_js.js",
+      "default": "./bundler/tiktoken_fast_js.js"
+    },
+    "./web": {
+      "types": "./web/tiktoken_fast_js.d.ts",
+      "default": "./web/tiktoken_fast_js.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": ["node", "bundler", "web", "README.md", "LICENSE", "NOTICE"],
+  "sideEffects": ["./bundler/tiktoken_fast_js.js"]
+}

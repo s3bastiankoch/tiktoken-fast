@@ -1,0 +1,9 @@
+{
+  "name": "tiktoken-fast-js-bench",
+  "private": true,
+  "dependencies": {
+    "gpt-tokenizer": "4.1.0",
+    "js-tiktoken": "1.0.21",
+    "tiktoken": "1.0.22"
+  }
+}

@@ -1,0 +1,34 @@
+
+running 2 tests
+..
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.19s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+
+running 7 tests
+.......
+test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 3.92s
+
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+~/tkf-work/venv/bin/python: No module named pytest
+ok test_uses_fast_core
+ok test_encode_variants
+ok test_count_tokens
+ok test_disallowed_special_raises
+ok test_batch
+ok test_decode
+ok test_helpers_and_attributes
+ok test_numpy
+ok test_surrogates
+ok test_pickle_and_model
+ok test_unknown_pattern_falls_back
+ok test_patch
+all equal

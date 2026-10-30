@@ -1,0 +1,178 @@
+cl100k_base book-gosrc         encode           stream tiktoken   11.7 MB/s  tiktoken-fast   63.1 MB/s   5.41x [5.01,5.89]
+cl100k_base book-gosrc         encode_ordinary  stream tiktoken   12.0 MB/s  tiktoken-fast   66.6 MB/s   5.52x [5.03,5.69]
+cl100k_base book-gosrc         mismatches 0
+cl100k_base book-hongloumeng   encode           stream tiktoken   14.5 MB/s  tiktoken-fast   78.7 MB/s   5.44x [5.31,5.77]
+cl100k_base book-hongloumeng   encode_ordinary  stream tiktoken   14.7 MB/s  tiktoken-fast   80.0 MB/s   5.46x [5.37,5.70]
+cl100k_base book-hongloumeng   mismatches 0
+cl100k_base book-mobydick      encode           stream tiktoken   14.6 MB/s  tiktoken-fast   56.5 MB/s   3.86x [3.51,4.09]
+cl100k_base book-mobydick      encode_ordinary  stream tiktoken   15.0 MB/s  tiktoken-fast   56.8 MB/s   3.82x [3.44,4.06]
+cl100k_base book-mobydick      mismatches 0
+cl100k_base chat-512B          encode           stream tiktoken   12.0 MB/s  tiktoken-fast   37.7 MB/s   3.15x [3.14,3.24]
+cl100k_base chat-512B          encode           cold   tiktoken   11.9 MB/s  tiktoken-fast   33.9 MB/s   2.85x [2.84,2.90]
+cl100k_base chat-512B          encode_ordinary  stream tiktoken   12.4 MB/s  tiktoken-fast   38.3 MB/s   3.08x [3.07,3.16]
+cl100k_base chat-512B          encode_ordinary  cold   tiktoken   12.5 MB/s  tiktoken-fast   34.3 MB/s   2.76x [2.74,2.82]
+cl100k_base chat-512B          batch x8         stream tiktoken    8.1 MB/s  tiktoken-fast   27.3 MB/s   3.41x [3.30,3.46]
+cl100k_base chat-512B          mismatches 0
+cl100k_base td-code-files      encode_ordinary  stream tiktoken   12.9 MB/s  tiktoken-fast  116.4 MB/s   9.06x [8.92,9.68]
+cl100k_base td-code-files      encode_ordinary  cold   tiktoken   12.9 MB/s  tiktoken-fast  111.1 MB/s   8.59x [8.53,9.22]
+cl100k_base td-code-files      batch x8         stream tiktoken   10.9 MB/s  tiktoken-fast  107.9 MB/s  10.24x [9.72,10.83]
+cl100k_base td-code-files      mismatches 0
+cl100k_base td-synthetic-1MB   encode           stream tiktoken   21.7 MB/s  tiktoken-fast  267.5 MB/s  12.38x [12.28,12.64]
+cl100k_base td-synthetic-1MB   encode_ordinary  stream tiktoken   22.6 MB/s  tiktoken-fast  273.8 MB/s  12.14x [11.84,12.18]
+cl100k_base td-synthetic-1MB   mismatches 0
+cl100k_base wiki-ar            encode           stream tiktoken   15.2 MB/s  tiktoken-fast   61.3 MB/s   4.05x [4.02,4.24]
+cl100k_base wiki-ar            encode           cold   tiktoken   15.2 MB/s  tiktoken-fast   44.3 MB/s   2.92x [2.89,3.00]
+cl100k_base wiki-ar            encode_ordinary  stream tiktoken   15.5 MB/s  tiktoken-fast   62.1 MB/s   4.01x [3.96,4.18]
+cl100k_base wiki-ar            encode_ordinary  cold   tiktoken   15.5 MB/s  tiktoken-fast   46.3 MB/s   3.02x [2.92,3.04]
+cl100k_base wiki-ar            batch x8         stream tiktoken   13.4 MB/s  tiktoken-fast   46.9 MB/s   3.52x [3.45,3.60]
+cl100k_base wiki-ar            mismatches 0
+cl100k_base wiki-de            encode           stream tiktoken   13.2 MB/s  tiktoken-fast   37.4 MB/s   2.82x [2.77,2.92]
+cl100k_base wiki-de            encode           cold   tiktoken   13.1 MB/s  tiktoken-fast   29.2 MB/s   2.21x [2.20,2.28]
+cl100k_base wiki-de            encode_ordinary  stream tiktoken   13.4 MB/s  tiktoken-fast   38.3 MB/s   2.84x [2.80,2.93]
+cl100k_base wiki-de            encode_ordinary  cold   tiktoken   13.4 MB/s  tiktoken-fast   29.9 MB/s   2.22x [2.21,2.30]
+cl100k_base wiki-de            batch x8         stream tiktoken   11.5 MB/s  tiktoken-fast   28.2 MB/s   2.43x [2.40,2.75]
+cl100k_base wiki-de            mismatches 0
+cl100k_base wiki-en            encode           stream tiktoken   16.5 MB/s  tiktoken-fast   79.5 MB/s   4.80x [4.71,5.23]
+cl100k_base wiki-en            encode           cold   tiktoken   16.4 MB/s  tiktoken-fast   66.7 MB/s   4.04x [3.97,4.34]
+cl100k_base wiki-en            encode_ordinary  stream tiktoken   16.9 MB/s  tiktoken-fast   79.5 MB/s   4.68x [4.63,5.16]
+cl100k_base wiki-en            encode_ordinary  cold   tiktoken   16.9 MB/s  tiktoken-fast   67.2 MB/s   3.98x [3.90,4.23]
+cl100k_base wiki-en            batch x8         stream tiktoken   13.9 MB/s  tiktoken-fast   69.4 MB/s   5.19x [4.82,5.85]
+cl100k_base wiki-en            mismatches 0
+cl100k_base wiki-es            encode           stream tiktoken   13.5 MB/s  tiktoken-fast   49.5 MB/s   3.65x [3.62,3.96]
+cl100k_base wiki-es            encode           cold   tiktoken   13.4 MB/s  tiktoken-fast   34.3 MB/s   2.56x [2.52,2.68]
+cl100k_base wiki-es            encode_ordinary  stream tiktoken   13.7 MB/s  tiktoken-fast   49.8 MB/s   3.60x [3.58,3.91]
+cl100k_base wiki-es            encode_ordinary  cold   tiktoken   13.7 MB/s  tiktoken-fast   34.4 MB/s   2.50x [2.48,2.64]
+cl100k_base wiki-es            batch x8         stream tiktoken   11.6 MB/s  tiktoken-fast   32.8 MB/s   3.05x [2.71,3.67]
+cl100k_base wiki-es            mismatches 0
+cl100k_base wiki-fr            encode           stream tiktoken   13.6 MB/s  tiktoken-fast   49.7 MB/s   3.66x [3.61,3.90]
+cl100k_base wiki-fr            encode           cold   tiktoken   13.5 MB/s  tiktoken-fast   34.5 MB/s   2.55x [2.54,2.66]
+cl100k_base wiki-fr            encode_ordinary  stream tiktoken   13.8 MB/s  tiktoken-fast   50.0 MB/s   3.62x [3.56,3.85]
+cl100k_base wiki-fr            encode_ordinary  cold   tiktoken   13.8 MB/s  tiktoken-fast   33.9 MB/s   2.45x [2.43,2.55]
+cl100k_base wiki-fr            batch x8         stream tiktoken   10.4 MB/s  tiktoken-fast   34.6 MB/s   3.30x [2.92,3.55]
+cl100k_base wiki-fr            mismatches 0
+cl100k_base wiki-hi            encode           stream tiktoken   13.0 MB/s  tiktoken-fast   78.9 MB/s   6.07x [6.03,6.21]
+cl100k_base wiki-hi            encode           cold   tiktoken   13.0 MB/s  tiktoken-fast   58.9 MB/s   4.54x [4.52,4.62]
+cl100k_base wiki-hi            encode_ordinary  stream tiktoken   13.2 MB/s  tiktoken-fast   79.9 MB/s   6.05x [6.02,6.18]
+cl100k_base wiki-hi            encode_ordinary  cold   tiktoken   13.2 MB/s  tiktoken-fast   59.5 MB/s   4.50x [4.49,4.60]
+cl100k_base wiki-hi            batch x8         stream tiktoken   10.3 MB/s  tiktoken-fast   65.5 MB/s   6.16x [5.98,7.24]
+cl100k_base wiki-hi            mismatches 0
+cl100k_base wiki-ja            encode           stream tiktoken   14.2 MB/s  tiktoken-fast   74.2 MB/s   5.21x [5.17,5.60]
+cl100k_base wiki-ja            encode           cold   tiktoken   14.2 MB/s  tiktoken-fast   68.1 MB/s   4.79x [4.74,5.08]
+cl100k_base wiki-ja            encode_ordinary  stream tiktoken   14.4 MB/s  tiktoken-fast   74.8 MB/s   5.20x [5.19,5.59]
+cl100k_base wiki-ja            encode_ordinary  cold   tiktoken   14.4 MB/s  tiktoken-fast   68.7 MB/s   4.78x [4.73,5.08]
+cl100k_base wiki-ja            batch x8         stream tiktoken   12.6 MB/s  tiktoken-fast   58.9 MB/s   4.70x [4.55,4.71]
+cl100k_base wiki-ja            mismatches 0
+cl100k_base wiki-ko            encode           stream tiktoken   12.7 MB/s  tiktoken-fast   41.2 MB/s   3.24x [3.22,3.69]
+cl100k_base wiki-ko            encode           cold   tiktoken   12.7 MB/s  tiktoken-fast   37.5 MB/s   2.96x [2.87,3.22]
+cl100k_base wiki-ko            encode_ordinary  stream tiktoken   12.9 MB/s  tiktoken-fast   42.9 MB/s   3.32x [3.20,3.69]
+cl100k_base wiki-ko            encode_ordinary  cold   tiktoken   12.9 MB/s  tiktoken-fast   38.1 MB/s   2.94x [2.83,3.18]
+cl100k_base wiki-ko            batch x8         stream tiktoken   11.0 MB/s  tiktoken-fast   37.8 MB/s   3.45x [3.17,3.76]
+cl100k_base wiki-ko            mismatches 0
+cl100k_base wiki-ru            encode           stream tiktoken   14.3 MB/s  tiktoken-fast   46.5 MB/s   3.24x [3.21,3.36]
+cl100k_base wiki-ru            encode           cold   tiktoken   14.3 MB/s  tiktoken-fast   41.7 MB/s   2.92x [2.90,3.03]
+cl100k_base wiki-ru            encode_ordinary  stream tiktoken   14.5 MB/s  tiktoken-fast   49.5 MB/s   3.41x [3.40,3.57]
+cl100k_base wiki-ru            encode_ordinary  cold   tiktoken   14.5 MB/s  tiktoken-fast   42.1 MB/s   2.90x [2.89,3.00]
+cl100k_base wiki-ru            batch x8         stream tiktoken   12.6 MB/s  tiktoken-fast   38.7 MB/s   3.09x [3.04,3.37]
+cl100k_base wiki-ru            mismatches 0
+cl100k_base wiki-th            encode           stream tiktoken   15.7 MB/s  tiktoken-fast  103.3 MB/s   6.55x [6.53,6.92]
+cl100k_base wiki-th            encode           cold   tiktoken   15.7 MB/s  tiktoken-fast   92.7 MB/s   5.88x [5.87,6.14]
+cl100k_base wiki-th            encode_ordinary  stream tiktoken   16.0 MB/s  tiktoken-fast  105.0 MB/s   6.56x [6.52,6.86]
+cl100k_base wiki-th            encode_ordinary  cold   tiktoken   15.9 MB/s  tiktoken-fast   94.2 MB/s   5.89x [5.86,6.16]
+cl100k_base wiki-th            batch x8         stream tiktoken   13.6 MB/s  tiktoken-fast   80.5 MB/s   5.89x [5.76,6.02]
+cl100k_base wiki-th            mismatches 0
+cl100k_base wiki-zh            encode           stream tiktoken   14.4 MB/s  tiktoken-fast   71.7 MB/s   4.97x [4.93,5.42]
+cl100k_base wiki-zh            encode           cold   tiktoken   14.3 MB/s  tiktoken-fast   69.3 MB/s   4.84x [4.77,5.18]
+cl100k_base wiki-zh            encode_ordinary  stream tiktoken   14.5 MB/s  tiktoken-fast   72.2 MB/s   4.98x [4.90,5.36]
+cl100k_base wiki-zh            encode_ordinary  cold   tiktoken   14.6 MB/s  tiktoken-fast   69.9 MB/s   4.79x [4.78,5.19]
+cl100k_base wiki-zh            batch x8         stream tiktoken   12.7 MB/s  tiktoken-fast   57.9 MB/s   4.77x [4.51,4.85]
+cl100k_base wiki-zh            mismatches 0
+o200k_base  book-gosrc         encode           stream tiktoken   19.4 MB/s  tiktoken-fast   82.4 MB/s   4.22x [4.13,4.48]
+o200k_base  book-gosrc         encode_ordinary  stream tiktoken   19.5 MB/s  tiktoken-fast   83.2 MB/s   4.29x [4.15,4.50]
+o200k_base  book-gosrc         mismatches 0
+o200k_base  book-hongloumeng   encode           stream tiktoken   16.2 MB/s  tiktoken-fast   76.5 MB/s   4.68x [4.57,5.18]
+o200k_base  book-hongloumeng   encode_ordinary  stream tiktoken   16.3 MB/s  tiktoken-fast   78.4 MB/s   4.84x [4.64,5.16]
+o200k_base  book-hongloumeng   mismatches 0
+o200k_base  book-mobydick      encode           stream tiktoken   22.4 MB/s  tiktoken-fast   55.4 MB/s   2.45x [2.36,2.70]
+o200k_base  book-mobydick      encode_ordinary  stream tiktoken   22.6 MB/s  tiktoken-fast   56.3 MB/s   2.45x [2.41,2.70]
+o200k_base  book-mobydick      mismatches 0
+o200k_base  chat-512B          encode           stream tiktoken   15.1 MB/s  tiktoken-fast   35.1 MB/s   2.31x [2.29,2.43]
+o200k_base  chat-512B          encode           cold   tiktoken   15.1 MB/s  tiktoken-fast   33.6 MB/s   2.26x [2.21,2.32]
+o200k_base  chat-512B          encode_ordinary  stream tiktoken   15.7 MB/s  tiktoken-fast   35.6 MB/s   2.28x [2.22,2.37]
+o200k_base  chat-512B          encode_ordinary  cold   tiktoken   15.7 MB/s  tiktoken-fast   34.1 MB/s   2.16x [2.14,2.27]
+o200k_base  chat-512B          batch x8         stream tiktoken   10.8 MB/s  tiktoken-fast   27.6 MB/s   2.54x [2.46,2.88]
+o200k_base  chat-512B          mismatches 0
+o200k_base  td-code-files      encode           stream tiktoken   20.1 MB/s  tiktoken-fast  114.9 MB/s   5.69x [5.66,6.19]
+o200k_base  td-code-files      encode           cold   tiktoken   20.2 MB/s  tiktoken-fast  109.9 MB/s   5.45x [5.37,5.81]
+o200k_base  td-code-files      encode_ordinary  stream tiktoken   20.2 MB/s  tiktoken-fast  118.1 MB/s   5.85x [5.74,6.29]
+o200k_base  td-code-files      encode_ordinary  cold   tiktoken   20.3 MB/s  tiktoken-fast  111.9 MB/s   5.53x [5.48,6.00]
+o200k_base  td-code-files      batch x8         stream tiktoken   16.0 MB/s  tiktoken-fast  105.8 MB/s   6.88x [6.24,7.15]
+o200k_base  td-code-files      mismatches 0
+o200k_base  td-synthetic-1MB   encode           stream tiktoken   38.9 MB/s  tiktoken-fast  270.7 MB/s   6.96x [6.91,7.07]
+o200k_base  td-synthetic-1MB   encode_ordinary  stream tiktoken   39.3 MB/s  tiktoken-fast  274.2 MB/s   6.98x [6.90,7.06]
+o200k_base  td-synthetic-1MB   mismatches 0
+o200k_base  wiki-ar            encode           stream tiktoken   21.8 MB/s  tiktoken-fast   47.3 MB/s   2.16x [2.15,2.43]
+o200k_base  wiki-ar            encode           cold   tiktoken   21.6 MB/s  tiktoken-fast   42.2 MB/s   1.95x [1.93,2.13]
+o200k_base  wiki-ar            encode_ordinary  stream tiktoken   22.0 MB/s  tiktoken-fast   47.5 MB/s   2.16x [2.13,2.40]
+o200k_base  wiki-ar            encode_ordinary  cold   tiktoken   22.0 MB/s  tiktoken-fast   42.5 MB/s   1.93x [1.90,2.11]
+o200k_base  wiki-ar            batch x8         stream tiktoken   19.4 MB/s  tiktoken-fast   41.5 MB/s   2.27x [2.10,2.30]
+o200k_base  wiki-ar            mismatches 0
+o200k_base  wiki-de            encode           stream tiktoken   17.6 MB/s  tiktoken-fast   36.3 MB/s   2.05x [2.03,2.21]
+o200k_base  wiki-de            encode           cold   tiktoken   17.4 MB/s  tiktoken-fast   30.6 MB/s   1.76x [1.72,1.84]
+o200k_base  wiki-de            encode_ordinary  stream tiktoken   17.6 MB/s  tiktoken-fast   36.4 MB/s   2.07x [2.01,2.19]
+o200k_base  wiki-de            encode_ordinary  cold   tiktoken   17.7 MB/s  tiktoken-fast   30.6 MB/s   1.73x [1.71,1.82]
+o200k_base  wiki-de            batch x8         stream tiktoken   15.6 MB/s  tiktoken-fast   30.1 MB/s   1.94x [1.87,1.96]
+o200k_base  wiki-de            mismatches 0
+o200k_base  wiki-en            encode           stream tiktoken   24.6 MB/s  tiktoken-fast   72.0 MB/s   2.91x [2.88,3.39]
+o200k_base  wiki-en            encode           cold   tiktoken   24.0 MB/s  tiktoken-fast   61.7 MB/s   2.57x [2.46,2.85]
+o200k_base  wiki-en            encode_ordinary  stream tiktoken   24.5 MB/s  tiktoken-fast   73.1 MB/s   2.98x [2.89,3.32]
+o200k_base  wiki-en            encode_ordinary  cold   tiktoken   24.4 MB/s  tiktoken-fast   62.1 MB/s   2.55x [2.47,2.80]
+o200k_base  wiki-en            batch x8         stream tiktoken   20.0 MB/s  tiktoken-fast   63.4 MB/s   3.36x [3.03,3.52]
+o200k_base  wiki-en            mismatches 0
+o200k_base  wiki-es            encode           stream tiktoken   20.7 MB/s  tiktoken-fast   49.2 MB/s   2.37x [2.34,2.73]
+o200k_base  wiki-es            encode           cold   tiktoken   20.4 MB/s  tiktoken-fast   39.6 MB/s   1.92x [1.89,2.13]
+o200k_base  wiki-es            encode_ordinary  stream tiktoken   20.7 MB/s  tiktoken-fast   49.4 MB/s   2.39x [2.32,2.69]
+o200k_base  wiki-es            encode_ordinary  cold   tiktoken   20.7 MB/s  tiktoken-fast   39.8 MB/s   1.92x [1.87,2.12]
+o200k_base  wiki-es            batch x8         stream tiktoken   17.5 MB/s  tiktoken-fast   39.8 MB/s   2.36x [2.21,2.53]
+o200k_base  wiki-es            mismatches 0
+o200k_base  wiki-fr            encode           stream tiktoken   20.6 MB/s  tiktoken-fast   49.2 MB/s   2.38x [2.37,2.67]
+o200k_base  wiki-fr            encode           cold   tiktoken   20.2 MB/s  tiktoken-fast   39.2 MB/s   1.94x [1.88,2.08]
+o200k_base  wiki-fr            encode_ordinary  stream tiktoken   20.5 MB/s  tiktoken-fast   49.4 MB/s   2.41x [2.36,2.66]
+o200k_base  wiki-fr            encode_ordinary  cold   tiktoken   20.7 MB/s  tiktoken-fast   39.3 MB/s   1.89x [1.88,2.06]
+o200k_base  wiki-fr            batch x8         stream tiktoken   15.8 MB/s  tiktoken-fast   39.1 MB/s   2.47x [2.18,2.68]
+o200k_base  wiki-fr            mismatches 0
+o200k_base  wiki-hi            encode           stream tiktoken   27.1 MB/s  tiktoken-fast   68.5 MB/s   2.52x [2.48,2.80]
+o200k_base  wiki-hi            encode           cold   tiktoken   26.7 MB/s  tiktoken-fast   55.8 MB/s   2.09x [2.04,2.27]
+o200k_base  wiki-hi            encode_ordinary  stream tiktoken   27.1 MB/s  tiktoken-fast   68.6 MB/s   2.53x [2.45,2.77]
+o200k_base  wiki-hi            encode_ordinary  cold   tiktoken   27.2 MB/s  tiktoken-fast   56.2 MB/s   2.07x [2.02,2.25]
+o200k_base  wiki-hi            batch x8         stream tiktoken   23.7 MB/s  tiktoken-fast   57.5 MB/s   2.52x [2.35,2.65]
+o200k_base  wiki-hi            mismatches 0
+o200k_base  wiki-ja            encode           stream tiktoken   14.6 MB/s  tiktoken-fast   64.8 MB/s   4.43x [4.42,4.97]
+o200k_base  wiki-ja            encode           cold   tiktoken   14.5 MB/s  tiktoken-fast   56.4 MB/s   3.90x [3.82,4.20]
+o200k_base  wiki-ja            encode_ordinary  stream tiktoken   14.7 MB/s  tiktoken-fast   65.8 MB/s   4.46x [4.45,4.94]
+o200k_base  wiki-ja            encode_ordinary  cold   tiktoken   14.7 MB/s  tiktoken-fast   56.8 MB/s   3.87x [3.83,4.23]
+o200k_base  wiki-ja            batch x8         stream tiktoken   13.4 MB/s  tiktoken-fast   56.9 MB/s   4.29x [3.99,4.46]
+o200k_base  wiki-ja            mismatches 0
+o200k_base  wiki-ko            encode           stream tiktoken   16.4 MB/s  tiktoken-fast   38.8 MB/s   2.35x [2.33,2.96]
+o200k_base  wiki-ko            encode           cold   tiktoken   16.2 MB/s  tiktoken-fast   38.8 MB/s   2.39x [2.22,2.73]
+o200k_base  wiki-ko            encode_ordinary  stream tiktoken   16.5 MB/s  tiktoken-fast   42.3 MB/s   2.57x [2.34,2.93]
+o200k_base  wiki-ko            encode_ordinary  cold   tiktoken   16.6 MB/s  tiktoken-fast   39.4 MB/s   2.38x [2.21,2.71]
+o200k_base  wiki-ko            batch x8         stream tiktoken   14.1 MB/s  tiktoken-fast   36.7 MB/s   2.61x [2.42,2.98]
+o200k_base  wiki-ko            mismatches 0
+o200k_base  wiki-ru            encode           stream tiktoken   18.4 MB/s  tiktoken-fast   46.2 MB/s   2.50x [2.49,2.74]
+o200k_base  wiki-ru            encode           cold   tiktoken   18.3 MB/s  tiktoken-fast   41.1 MB/s   2.24x [2.22,2.41]
+o200k_base  wiki-ru            encode_ordinary  stream tiktoken   18.5 MB/s  tiktoken-fast   46.6 MB/s   2.53x [2.47,2.73]
+o200k_base  wiki-ru            encode_ordinary  cold   tiktoken   18.5 MB/s  tiktoken-fast   41.2 MB/s   2.23x [2.19,2.40]
+o200k_base  wiki-ru            batch x8         stream tiktoken   16.6 MB/s  tiktoken-fast   39.5 MB/s   2.55x [2.34,2.88]
+o200k_base  wiki-ru            mismatches 0
+o200k_base  wiki-th            encode           stream tiktoken   14.2 MB/s  tiktoken-fast   53.3 MB/s   3.74x [3.73,4.00]
+o200k_base  wiki-th            encode           cold   tiktoken   14.2 MB/s  tiktoken-fast   44.6 MB/s   3.15x [3.12,3.30]
+o200k_base  wiki-th            encode_ordinary  stream tiktoken   14.3 MB/s  tiktoken-fast   53.7 MB/s   3.75x [3.73,3.99]
+o200k_base  wiki-th            encode_ordinary  cold   tiktoken   14.3 MB/s  tiktoken-fast   44.7 MB/s   3.13x [3.11,3.28]
+o200k_base  wiki-th            batch x8         stream tiktoken   13.5 MB/s  tiktoken-fast   45.1 MB/s   3.33x [3.28,3.55]
+o200k_base  wiki-th            mismatches 0
+o200k_base  wiki-zh            encode           stream tiktoken   14.9 MB/s  tiktoken-fast   62.5 MB/s   4.19x [4.18,4.86]
+o200k_base  wiki-zh            encode           cold   tiktoken   14.8 MB/s  tiktoken-fast   57.6 MB/s   3.90x [3.86,4.43]
+o200k_base  wiki-zh            encode_ordinary  stream tiktoken   14.9 MB/s  tiktoken-fast   63.3 MB/s   4.24x [4.19,4.86]
+o200k_base  wiki-zh            encode_ordinary  cold   tiktoken   14.9 MB/s  tiktoken-fast   58.3 MB/s   3.90x [3.87,4.41]
+o200k_base  wiki-zh            batch x8         stream tiktoken   13.4 MB/s  tiktoken-fast   56.5 MB/s   4.40x [4.08,4.53]
+o200k_base  wiki-zh            mismatches 0

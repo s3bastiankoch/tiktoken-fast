@@ -1,0 +1,141 @@
+cl100k_base book-gosrc         stream tiktoken-rs   12.6 MB/s | ours  3.78x [3.66,3.96]     48 MB/s mism 0 | bpe-openai  2.15x [2.14,2.19] mism 0
+cl100k_base book-gosrc         repeat tiktoken-rs   12.7 MB/s | ours 10.56x [10.48,10.64]    134 MB/s mism 0 | bpe-openai  2.21x [2.14,2.23] mism 0
+cl100k_base book-hongloumeng   stream tiktoken-rs   14.6 MB/s | ours  8.65x [8.48,8.89]    126 MB/s mism 0 | bpe-openai  1.85x [1.83,1.88] mism 0
+cl100k_base book-hongloumeng   repeat tiktoken-rs   14.6 MB/s | ours  9.07x [8.91,9.29]    133 MB/s mism 0 | bpe-openai  1.85x [1.83,1.87] mism 0
+cl100k_base book-mobydick      stream tiktoken-rs   15.1 MB/s | ours  2.69x [2.59,2.74]     40 MB/s mism 0 | bpe-openai  1.45x [1.43,1.47] mism 0
+cl100k_base book-mobydick      repeat tiktoken-rs   15.0 MB/s | ours 10.57x [10.41,10.67]    158 MB/s mism 0 | bpe-openai  1.47x [1.41,1.52] mism 0
+cl100k_base chat-512B          stream tiktoken-rs   12.2 MB/s | ours  2.62x [2.61,2.65]     32 MB/s mism 0 | bpe-openai  1.63x [1.63,1.64] mism 0
+cl100k_base chat-512B          repeat tiktoken-rs   12.3 MB/s | ours  2.90x [2.86,2.94]     36 MB/s mism 0 | bpe-openai  1.61x [1.58,1.63] mism 0
+cl100k_base chat-512B          cold   tiktoken-rs   12.5 MB/s | ours  2.23x [2.21,2.24]     28 MB/s mism 0 | bpe-openai  1.60x [1.59,1.61] mism 0
+cl100k_base td-code-files      stream tiktoken-rs   14.6 MB/s | ours  7.78x [7.73,7.86]    114 MB/s mism 0 | bpe-openai  2.61x [2.60,2.62] mism 0
+cl100k_base td-code-files      repeat tiktoken-rs   14.6 MB/s | ours 11.83x [11.81,11.91]    174 MB/s mism 0 | bpe-openai  2.60x [2.60,2.62] mism 0
+cl100k_base td-code-files      cold   tiktoken-rs   14.6 MB/s | ours  7.32x [7.27,7.46]    107 MB/s mism 0 | bpe-openai  2.62x [2.61,2.63] mism 0
+cl100k_base td-synthetic-1MB   stream tiktoken-rs   28.9 MB/s | ours 14.26x [13.94,14.42]    411 MB/s mism 0 | bpe-openai  1.92x [1.91,1.92] mism 0
+cl100k_base td-synthetic-1MB   repeat tiktoken-rs   28.9 MB/s | ours 17.28x [17.20,17.35]    499 MB/s mism 0 | bpe-openai  1.92x [1.91,1.92] mism 0
+cl100k_base wiki-ar            stream tiktoken-rs   14.7 MB/s | ours  4.39x [4.34,4.50]     64 MB/s mism 0 | bpe-openai  2.28x [2.26,2.28] mism 0
+cl100k_base wiki-ar            repeat tiktoken-rs   14.7 MB/s | ours  4.70x [4.69,4.72]     69 MB/s mism 0 | bpe-openai  2.28x [2.28,2.28] mism 0
+cl100k_base wiki-ar            cold   tiktoken-rs   14.7 MB/s | ours  2.97x [2.95,2.99]     44 MB/s mism 0 | bpe-openai  2.28x [2.28,2.28] mism 0
+cl100k_base wiki-de            stream tiktoken-rs   13.4 MB/s | ours  2.39x [2.38,2.40]     32 MB/s mism 0 | bpe-openai  1.44x [1.44,1.45] mism 0
+cl100k_base wiki-de            repeat tiktoken-rs   13.4 MB/s | ours  2.93x [2.92,2.97]     39 MB/s mism 0 | bpe-openai  1.46x [1.45,1.47] mism 0
+cl100k_base wiki-de            cold   tiktoken-rs   13.4 MB/s | ours  1.85x [1.84,1.86]     25 MB/s mism 0 | bpe-openai  1.46x [1.46,1.46] mism 0
+cl100k_base wiki-en            stream tiktoken-rs   18.9 MB/s | ours  3.68x [3.65,3.76]     70 MB/s mism 0 | bpe-openai  1.65x [1.63,1.66] mism 0
+cl100k_base wiki-en            repeat tiktoken-rs   18.9 MB/s | ours  6.18x [6.08,6.40]    117 MB/s mism 0 | bpe-openai  1.64x [1.63,1.66] mism 0
+cl100k_base wiki-en            cold   tiktoken-rs   18.8 MB/s | ours  2.99x [2.97,3.02]     56 MB/s mism 0 | bpe-openai  1.64x [1.63,1.65] mism 0
+cl100k_base wiki-es            stream tiktoken-rs   14.2 MB/s | ours  2.94x [2.93,2.95]     42 MB/s mism 0 | bpe-openai  1.61x [1.60,1.61] mism 0
+cl100k_base wiki-es            repeat tiktoken-rs   14.2 MB/s | ours  4.78x [4.69,4.86]     68 MB/s mism 0 | bpe-openai  1.62x [1.60,1.62] mism 0
+cl100k_base wiki-es            cold   tiktoken-rs   14.2 MB/s | ours  1.99x [1.98,2.02]     28 MB/s mism 0 | bpe-openai  1.61x [1.60,1.62] mism 0
+cl100k_base wiki-fr            stream tiktoken-rs   14.4 MB/s | ours  2.89x [2.87,2.97]     42 MB/s mism 0 | bpe-openai  1.55x [1.55,1.57] mism 0
+cl100k_base wiki-fr            repeat tiktoken-rs   14.4 MB/s | ours  3.92x [3.90,4.01]     56 MB/s mism 0 | bpe-openai  1.55x [1.54,1.56] mism 0
+cl100k_base wiki-fr            cold   tiktoken-rs   14.4 MB/s | ours  1.95x [1.94,1.95]     28 MB/s mism 0 | bpe-openai  1.56x [1.55,1.56] mism 0
+cl100k_base wiki-hi            stream tiktoken-rs   15.0 MB/s | ours  6.82x [6.79,6.84]    102 MB/s mism 0 | bpe-openai  2.61x [2.60,2.62] mism 0
+cl100k_base wiki-hi            repeat tiktoken-rs   15.0 MB/s | ours  7.81x [7.80,7.83]    117 MB/s mism 0 | bpe-openai  2.61x [2.60,2.62] mism 0
+cl100k_base wiki-hi            cold   tiktoken-rs   15.0 MB/s | ours  4.64x [4.63,4.66]     69 MB/s mism 0 | bpe-openai  2.62x [2.61,2.63] mism 0
+cl100k_base wiki-ja            stream tiktoken-rs   13.8 MB/s | ours  6.37x [6.30,6.39]     88 MB/s mism 0 | bpe-openai  2.08x [2.07,2.09] mism 0
+cl100k_base wiki-ja            repeat tiktoken-rs   13.8 MB/s | ours  7.28x [7.26,7.34]    101 MB/s mism 0 | bpe-openai  2.09x [2.08,2.09] mism 0
+cl100k_base wiki-ja            cold   tiktoken-rs   13.9 MB/s | ours  5.32x [5.24,5.35]     74 MB/s mism 0 | bpe-openai  2.08x [2.08,2.08] mism 0
+cl100k_base wiki-ko            stream tiktoken-rs   13.2 MB/s | ours  3.28x [3.22,3.30]     43 MB/s mism 0 | bpe-openai  2.10x [2.08,2.11] mism 0
+cl100k_base wiki-ko            repeat tiktoken-rs   13.2 MB/s | ours  3.66x [3.64,3.72]     49 MB/s mism 0 | bpe-openai  2.10x [2.09,2.10] mism 0
+cl100k_base wiki-ko            cold   tiktoken-rs   13.2 MB/s | ours  2.89x [2.88,2.93]     38 MB/s mism 0 | bpe-openai  2.09x [2.06,2.10] mism 0
+cl100k_base wiki-ru            stream tiktoken-rs   13.3 MB/s | ours  3.35x [3.33,3.38]     45 MB/s mism 0 | bpe-openai  2.16x [2.14,2.16] mism 0
+cl100k_base wiki-ru            repeat tiktoken-rs   13.3 MB/s | ours  3.51x [3.49,3.52]     47 MB/s mism 0 | bpe-openai  2.17x [2.16,2.17] mism 0
+cl100k_base wiki-ru            cold   tiktoken-rs   13.3 MB/s | ours  2.59x [2.57,2.60]     34 MB/s mism 0 | bpe-openai  2.17x [2.16,2.17] mism 0
+cl100k_base wiki-th            stream tiktoken-rs   15.3 MB/s | ours  8.14x [8.10,8.15]    125 MB/s mism 0 | bpe-openai  2.42x [2.41,2.42] mism 0
+cl100k_base wiki-th            repeat tiktoken-rs   15.3 MB/s | ours 10.06x [10.02,10.09]    154 MB/s mism 0 | bpe-openai  2.42x [2.42,2.42] mism 0
+cl100k_base wiki-th            cold   tiktoken-rs   15.3 MB/s | ours  6.78x [6.75,6.81]    104 MB/s mism 0 | bpe-openai  2.42x [2.40,2.42] mism 0
+cl100k_base wiki-zh            stream tiktoken-rs   14.4 MB/s | ours  6.60x [6.51,6.67]     95 MB/s mism 0 | bpe-openai  1.91x [1.88,1.91] mism 0
+cl100k_base wiki-zh            repeat tiktoken-rs   14.4 MB/s | ours  8.65x [8.60,8.73]    125 MB/s mism 0 | bpe-openai  1.91x [1.91,1.92] mism 0
+cl100k_base wiki-zh            cold   tiktoken-rs   14.4 MB/s | ours  6.26x [6.22,6.29]     90 MB/s mism 0 | bpe-openai  1.88x [1.84,1.91] mism 0
+o200k_base  book-gosrc         stream tiktoken-rs   21.7 MB/s | ours  2.86x [2.81,2.91]     62 MB/s mism 0 | bpe-openai  1.34x [1.31,1.36] mism 0
+o200k_base  book-gosrc         repeat tiktoken-rs   21.6 MB/s | ours  6.42x [6.26,6.75]    142 MB/s mism 0 | bpe-openai  1.38x [1.32,1.43] mism 0
+o200k_base  book-hongloumeng   stream tiktoken-rs   14.8 MB/s | ours  5.37x [5.33,5.63]     80 MB/s mism 0 | bpe-openai  1.78x [1.74,1.81] mism 0
+o200k_base  book-hongloumeng   repeat tiktoken-rs   14.8 MB/s | ours  5.53x [5.51,5.68]     83 MB/s mism 0 | bpe-openai  1.79x [1.77,1.83] mism 0
+o200k_base  book-mobydick      stream tiktoken-rs   21.2 MB/s | ours  1.74x [1.72,1.77]     37 MB/s mism 0 | bpe-openai  0.98x [0.95,1.00] mism 0
+o200k_base  book-mobydick      repeat tiktoken-rs   21.1 MB/s | ours  7.54x [7.41,7.79]    161 MB/s mism 0 | bpe-openai  1.02x [0.95,1.10] mism 0
+o200k_base  chat-512B          stream tiktoken-rs   13.7 MB/s | ours  1.81x [1.79,1.85]     25 MB/s mism 0 | bpe-openai  1.23x [1.22,1.24] mism 0
+o200k_base  chat-512B          repeat tiktoken-rs   13.7 MB/s | ours  1.95x [1.94,1.99]     27 MB/s mism 0 | bpe-openai  1.23x [1.22,1.24] mism 0
+o200k_base  chat-512B          cold   tiktoken-rs   13.7 MB/s | ours  1.64x [1.61,1.65]     22 MB/s mism 0 | bpe-openai  1.23x [1.22,1.24] mism 0
+o200k_base  td-code-files      stream tiktoken-rs   23.5 MB/s | ours  4.76x [4.70,4.81]    112 MB/s mism 0 | bpe-openai  1.61x [1.61,1.61] mism 0
+o200k_base  td-code-files      repeat tiktoken-rs   23.5 MB/s | ours  7.44x [7.40,7.48]    175 MB/s mism 0 | bpe-openai  1.62x [1.61,1.62] mism 0
+o200k_base  td-code-files      cold   tiktoken-rs   23.5 MB/s | ours  4.62x [4.57,4.64]    108 MB/s mism 0 | bpe-openai  1.62x [1.61,1.63] mism 0
+o200k_base  td-synthetic-1MB   stream tiktoken-rs   51.8 MB/s | ours  8.05x [7.97,8.10]    415 MB/s mism 0 | bpe-openai  1.10x [1.10,1.11] mism 0
+o200k_base  td-synthetic-1MB   repeat tiktoken-rs   51.8 MB/s | ours  9.80x [9.74,9.84]    506 MB/s mism 0 | bpe-openai  1.11x [1.10,1.11] mism 0
+o200k_base  wiki-ar            stream tiktoken-rs   21.1 MB/s | ours  1.84x [1.83,1.87]     39 MB/s mism 0 | bpe-openai  1.55x [1.55,1.57] mism 0
+o200k_base  wiki-ar            repeat tiktoken-rs   21.1 MB/s | ours  1.94x [1.91,1.96]     41 MB/s mism 0 | bpe-openai  1.56x [1.55,1.56] mism 0
+o200k_base  wiki-ar            cold   tiktoken-rs   21.1 MB/s | ours  1.63x [1.63,1.65]     34 MB/s mism 0 | bpe-openai  1.56x [1.55,1.56] mism 0
+o200k_base  wiki-de            stream tiktoken-rs   17.2 MB/s | ours  1.67x [1.66,1.69]     29 MB/s mism 0 | bpe-openai  1.14x [1.12,1.15] mism 0
+o200k_base  wiki-de            repeat tiktoken-rs   17.3 MB/s | ours  2.04x [2.03,2.08]     35 MB/s mism 0 | bpe-openai  1.13x [1.13,1.14] mism 0
+o200k_base  wiki-de            cold   tiktoken-rs   17.2 MB/s | ours  1.37x [1.37,1.38]     24 MB/s mism 0 | bpe-openai  1.14x [1.13,1.15] mism 0
+o200k_base  wiki-en            stream tiktoken-rs   26.4 MB/s | ours  2.34x [2.33,2.38]     62 MB/s mism 0 | bpe-openai  1.05x [1.04,1.06] mism 0
+o200k_base  wiki-en            repeat tiktoken-rs   26.4 MB/s | ours  4.20x [4.16,4.27]    110 MB/s mism 0 | bpe-openai  1.06x [1.05,1.06] mism 0
+o200k_base  wiki-en            cold   tiktoken-rs   26.3 MB/s | ours  1.88x [1.88,1.89]     50 MB/s mism 0 | bpe-openai  1.05x [1.04,1.06] mism 0
+o200k_base  wiki-es            stream tiktoken-rs   21.2 MB/s | ours  1.91x [1.90,1.91]     40 MB/s mism 0 | bpe-openai  1.08x [1.06,1.08] mism 0
+o200k_base  wiki-es            repeat tiktoken-rs   21.1 MB/s | ours  3.27x [3.21,3.40]     69 MB/s mism 0 | bpe-openai  1.09x [1.08,1.10] mism 0
+o200k_base  wiki-es            cold   tiktoken-rs   21.1 MB/s | ours  1.46x [1.45,1.49]     31 MB/s mism 0 | bpe-openai  1.09x [1.08,1.10] mism 0
+o200k_base  wiki-fr            stream tiktoken-rs   21.3 MB/s | ours  1.86x [1.84,1.88]     40 MB/s mism 0 | bpe-openai  1.08x [1.07,1.09] mism 0
+o200k_base  wiki-fr            repeat tiktoken-rs   21.3 MB/s | ours  2.55x [2.51,2.58]     54 MB/s mism 0 | bpe-openai  1.08x [1.07,1.08] mism 0
+o200k_base  wiki-fr            cold   tiktoken-rs   21.3 MB/s | ours  1.39x [1.38,1.40]     30 MB/s mism 0 | bpe-openai  1.08x [1.07,1.08] mism 0
+o200k_base  wiki-hi            stream tiktoken-rs   25.4 MB/s | ours  2.19x [2.18,2.22]     56 MB/s mism 0 | bpe-openai  1.75x [1.74,1.75] mism 0
+o200k_base  wiki-hi            repeat tiktoken-rs   25.3 MB/s | ours  2.48x [2.42,2.51]     63 MB/s mism 0 | bpe-openai  1.75x [1.75,1.76] mism 0
+o200k_base  wiki-hi            cold   tiktoken-rs   25.4 MB/s | ours  1.86x [1.84,1.87]     47 MB/s mism 0 | bpe-openai  1.75x [1.75,1.76] mism 0
+o200k_base  wiki-ja            stream tiktoken-rs   13.6 MB/s | ours  4.67x [4.63,4.71]     64 MB/s mism 0 | bpe-openai  2.03x [2.02,2.03] mism 0
+o200k_base  wiki-ja            repeat tiktoken-rs   13.7 MB/s | ours  5.41x [5.35,5.46]     74 MB/s mism 0 | bpe-openai  2.02x [2.02,2.03] mism 0
+o200k_base  wiki-ja            cold   tiktoken-rs   13.7 MB/s | ours  3.78x [3.76,3.80]     52 MB/s mism 0 | bpe-openai  2.02x [2.02,2.03] mism 0
+o200k_base  wiki-ko            stream tiktoken-rs   16.3 MB/s | ours  2.09x [2.07,2.11]     34 MB/s mism 0 | bpe-openai  1.91x [1.91,1.92] mism 0
+o200k_base  wiki-ko            repeat tiktoken-rs   16.3 MB/s | ours  2.31x [2.28,2.32]     38 MB/s mism 0 | bpe-openai  1.91x [1.91,1.92] mism 0
+o200k_base  wiki-ko            cold   tiktoken-rs   16.3 MB/s | ours  2.02x [2.01,2.05]     33 MB/s mism 0 | bpe-openai  1.91x [1.91,1.92] mism 0
+o200k_base  wiki-ru            stream tiktoken-rs   16.9 MB/s | ours  2.16x [2.15,2.17]     37 MB/s mism 0 | bpe-openai  1.72x [1.71,1.72] mism 0
+o200k_base  wiki-ru            repeat tiktoken-rs   16.9 MB/s | ours  2.26x [2.25,2.27]     38 MB/s mism 0 | bpe-openai  1.71x [1.71,1.72] mism 0
+o200k_base  wiki-ru            cold   tiktoken-rs   16.9 MB/s | ours  1.81x [1.78,1.83]     31 MB/s mism 0 | bpe-openai  1.72x [1.71,1.73] mism 0
+o200k_base  wiki-th            stream tiktoken-rs   13.0 MB/s | ours  3.57x [3.54,3.58]     46 MB/s mism 0 | bpe-openai  2.78x [2.77,2.78] mism 0
+o200k_base  wiki-th            repeat tiktoken-rs   13.0 MB/s | ours  3.89x [3.87,3.92]     51 MB/s mism 0 | bpe-openai  2.77x [2.77,2.78] mism 0
+o200k_base  wiki-th            cold   tiktoken-rs   13.0 MB/s | ours  2.89x [2.87,2.90]     37 MB/s mism 0 | bpe-openai  2.78x [2.77,2.78] mism 0
+o200k_base  wiki-zh            stream tiktoken-rs   13.7 MB/s | ours  4.45x [4.39,4.47]     61 MB/s mism 0 | bpe-openai  1.90x [1.90,1.91] mism 0
+o200k_base  wiki-zh            repeat tiktoken-rs   13.8 MB/s | ours  5.74x [5.69,5.77]     79 MB/s mism 0 | bpe-openai  1.89x [1.88,1.90] mism 0
+o200k_base  wiki-zh            cold   tiktoken-rs   13.8 MB/s | ours  4.00x [3.99,4.05]     55 MB/s mism 0 | bpe-openai  1.90x [1.89,1.91] mism 0
+llama4      book-gosrc         stream tiktoken-rs   22.5 MB/s | ours  2.66x [2.65,3.37]     62 MB/s mism 0
+llama4      book-gosrc         repeat tiktoken-rs   22.1 MB/s | ours  8.70x [5.87,8.82]    188 MB/s mism 0
+llama4      book-hongloumeng   stream tiktoken-rs   14.4 MB/s | ours  4.26x [4.21,5.84]     61 MB/s mism 0
+llama4      book-hongloumeng   repeat tiktoken-rs   14.0 MB/s | ours  5.87x [4.29,5.93]     81 MB/s mism 0
+llama4      book-mobydick      stream tiktoken-rs   22.7 MB/s | ours  1.57x [1.55,2.17]     36 MB/s mism 0
+llama4      book-mobydick      repeat tiktoken-rs   22.3 MB/s | ours 14.06x [7.04,14.53]    296 MB/s mism 0
+llama4      chat-512B          stream tiktoken-rs   13.1 MB/s | ours  1.85x [1.82,1.86]     24 MB/s mism 0
+llama4      chat-512B          repeat tiktoken-rs   13.1 MB/s | ours  2.03x [1.99,2.06]     27 MB/s mism 0
+llama4      chat-512B          cold   tiktoken-rs   13.0 MB/s | ours  1.72x [1.69,1.74]     22 MB/s mism 0
+llama4      td-code-files      stream tiktoken-rs   23.4 MB/s | ours  4.88x [4.86,5.32]    115 MB/s mism 0
+llama4      td-code-files      repeat tiktoken-rs   23.3 MB/s | ours  8.05x [7.47,8.15]    187 MB/s mism 0
+llama4      td-code-files      cold   tiktoken-rs   23.4 MB/s | ours  4.66x [4.53,5.02]    109 MB/s mism 0
+llama4      td-synthetic-1MB   stream tiktoken-rs   51.6 MB/s | ours  7.92x [7.83,8.88]    410 MB/s mism 0
+llama4      td-synthetic-1MB   repeat tiktoken-rs   51.5 MB/s | ours 11.39x [9.62,11.58]    585 MB/s mism 0
+llama4      wiki-ar            stream tiktoken-rs   18.5 MB/s | ours  2.18x [2.14,2.32]     40 MB/s mism 0
+llama4      wiki-ar            repeat tiktoken-rs   18.4 MB/s | ours  2.39x [2.27,2.44]     44 MB/s mism 0
+llama4      wiki-ar            cold   tiktoken-rs   18.5 MB/s | ours  1.83x [1.79,1.92]     34 MB/s mism 0
+llama4      wiki-de            stream tiktoken-rs   17.1 MB/s | ours  1.71x [1.70,1.79]     29 MB/s mism 0
+llama4      wiki-de            repeat tiktoken-rs   17.1 MB/s | ours  2.16x [2.06,2.25]     37 MB/s mism 0
+llama4      wiki-de            cold   tiktoken-rs   17.1 MB/s | ours  1.42x [1.39,1.44]     24 MB/s mism 0
+llama4      wiki-en            stream tiktoken-rs   25.9 MB/s | ours  2.44x [2.32,2.61]     63 MB/s mism 0
+llama4      wiki-en            repeat tiktoken-rs   25.7 MB/s | ours  4.80x [4.14,4.87]    123 MB/s mism 0
+llama4      wiki-en            cold   tiktoken-rs   26.1 MB/s | ours  1.96x [1.84,2.06]     51 MB/s mism 0
+llama4      wiki-es            stream tiktoken-rs   21.5 MB/s | ours  1.91x [1.88,2.14]     42 MB/s mism 0
+llama4      wiki-es            repeat tiktoken-rs   21.6 MB/s | ours  3.39x [3.17,3.63]     73 MB/s mism 0
+llama4      wiki-es            cold   tiktoken-rs   21.6 MB/s | ours  1.46x [1.43,1.58]     32 MB/s mism 0
+llama4      wiki-fr            stream tiktoken-rs   21.1 MB/s | ours  1.91x [1.89,2.02]     40 MB/s mism 0
+llama4      wiki-fr            repeat tiktoken-rs   20.9 MB/s | ours  2.73x [2.58,2.83]     57 MB/s mism 0
+llama4      wiki-fr            cold   tiktoken-rs   21.0 MB/s | ours  1.40x [1.38,1.49]     30 MB/s mism 0
+llama4      wiki-hi            stream tiktoken-rs   24.0 MB/s | ours  2.36x [2.34,2.61]     57 MB/s mism 0
+llama4      wiki-hi            repeat tiktoken-rs   23.8 MB/s | ours  2.80x [2.62,2.88]     67 MB/s mism 0
+llama4      wiki-hi            cold   tiktoken-rs   24.1 MB/s | ours  1.97x [1.93,2.11]     47 MB/s mism 0
+llama4      wiki-ja            stream tiktoken-rs   12.6 MB/s | ours  3.60x [3.56,3.86]     46 MB/s mism 0
+llama4      wiki-ja            repeat tiktoken-rs   12.6 MB/s | ours  4.15x [3.91,4.20]     52 MB/s mism 0
+llama4      wiki-ja            cold   tiktoken-rs   12.6 MB/s | ours  3.04x [2.96,3.19]     38 MB/s mism 0
+llama4      wiki-ko            stream tiktoken-rs   16.3 MB/s | ours  1.93x [1.84,2.14]     31 MB/s mism 0
+llama4      wiki-ko            repeat tiktoken-rs   16.1 MB/s | ours  2.30x [2.08,2.39]     37 MB/s mism 0
+llama4      wiki-ko            cold   tiktoken-rs   16.4 MB/s | ours  1.89x [1.83,2.10]     31 MB/s mism 0
+llama4      wiki-ru            stream tiktoken-rs   19.1 MB/s | ours  2.11x [2.08,2.28]     40 MB/s mism 0
+llama4      wiki-ru            repeat tiktoken-rs   19.2 MB/s | ours  2.22x [2.19,2.33]     42 MB/s mism 0
+llama4      wiki-ru            cold   tiktoken-rs   19.1 MB/s | ours  1.89x [1.80,1.96]     36 MB/s mism 0
+llama4      wiki-th            stream tiktoken-rs   12.0 MB/s | ours  3.50x [3.41,3.64]     42 MB/s mism 0
+llama4      wiki-th            repeat tiktoken-rs   12.0 MB/s | ours  3.89x [3.66,3.92]     47 MB/s mism 0
+llama4      wiki-th            cold   tiktoken-rs   12.0 MB/s | ours  3.09x [3.04,3.20]     37 MB/s mism 0
+llama4      wiki-zh            stream tiktoken-rs   12.6 MB/s | ours  3.65x [3.54,4.00]     46 MB/s mism 0
+llama4      wiki-zh            repeat tiktoken-rs   12.6 MB/s | ours  4.49x [4.17,4.53]     56 MB/s mism 0
+llama4      wiki-zh            cold   tiktoken-rs   12.6 MB/s | ours  3.36x [3.30,3.67]     42 MB/s mism 0

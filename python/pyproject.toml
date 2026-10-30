@@ -1,0 +1,26 @@
+[build-system]
+requires = ["maturin>=1.5,<2"]
+build-backend = "maturin"
+
+[project]
+name = "tiktoken-fast"
+version = "0.1.0"
+description = "A faster drop-in for tiktoken: the same token ids, encoded by a new Rust core"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = ["tiktoken>=0.7"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Rust",
+    "License :: OSI Approved :: MIT License",
+]
+
+[project.urls]
+Repository = "https://github.com/s3bastiankoch/tiktoken-fast"
+
+[tool.maturin]
+module-name = "tiktoken_fast._core"
+python-source = "."
+python-packages = ["tiktoken_fast"]
+features = ["pyo3/extension-module"]

@@ -1,0 +1,36 @@
+o200k_base, v22.23.4, 5 processes per library; mean ms/call over the seven inputs, median [min, max]
+
+encode
+  #1 tiktoken-fast                1.002 ms [0.991, 1.015]
+  #2 bpe-lite                     6.236 ms [5.990, 6.542]
+  #3 gpt-tokenizer                7.275 ms [6.665, 7.611]
+  #4 ai-tokenizer                 7.965 ms [7.629, 8.259]
+  #5 tiktoken                    27.798 ms [27.443, 28.131]
+  #6 @goliapkg/tiktoken-wasm    399.298 ms [398.204, 401.774]
+
+count
+  #1 tiktoken-fast                0.871 ms [0.866, 0.875]
+  #2 bpe-lite                     4.716 ms [4.676, 4.796]
+  #3 gpt-tokenizer                5.340 ms [5.194, 5.425]
+  #4 ai-tokenizer                 7.969 ms [7.740, 8.299]
+  #5 tiktoken                    27.771 ms [27.459, 27.982]
+  #6 @goliapkg/tiktoken-wasm    397.829 ms [388.101, 399.541]
+
+decode
+  #1 tiktoken-fast                0.670 ms [0.663, 0.675]
+  #2 gpt-tokenizer                0.945 ms [0.928, 1.160]
+  #3 tiktoken                     1.338 ms [1.312, 1.354]
+  #4 @goliapkg/tiktoken-wasm      1.341 ms [1.327, 1.348]
+  #5 bpe-lite                     2.845 ms [2.781, 2.904]
+  #6 ai-tokenizer                 6.128 ms [5.150, 6.342]
+
+per input, median ms/call (encode):
+  English        tiktoken-fast 0.0005 | gpt-tokenizer 0.0007 | tiktoken 0.0827 | @goliapkg/tiktoken-wasm 0.0005 | bpe-lite 0.0008 | ai-tokenizer 0.0025
+  Chinese        tiktoken-fast 0.0005 | gpt-tokenizer 0.0009 | tiktoken 0.0560 | @goliapkg/tiktoken-wasm 0.0007 | bpe-lite 0.0007 | ai-tokenizer 0.0022
+  French         tiktoken-fast 0.0006 | gpt-tokenizer 0.0008 | tiktoken 0.0570 | @goliapkg/tiktoken-wasm 0.0007 | bpe-lite 0.0009 | ai-tokenizer 0.0026
+  Code           tiktoken-fast 0.0011 | gpt-tokenizer 0.0013 | tiktoken 0.0621 | @goliapkg/tiktoken-wasm 0.0013 | bpe-lite 0.0014 | ai-tokenizer 0.0031
+  Latin          tiktoken-fast 0.0026 | gpt-tokenizer 0.0046 | tiktoken 0.1117 | @goliapkg/tiktoken-wasm 0.0037 | bpe-lite 0.0050 | ai-tokenizer 0.0084
+  LatinRepeat    tiktoken-fast 4.5644 | gpt-tokenizer 16.2671 | tiktoken 128.9464 | @goliapkg/tiktoken-wasm 6.9018 | bpe-lite 14.6277 | ai-tokenizer 16.0028
+  UnicodeRandom  tiktoken-fast 2.4586 | gpt-tokenizer 34.6495 | tiktoken 65.3615 | @goliapkg/tiktoken-wasm 2788.3218 | bpe-lite 29.4295 | ai-tokenizer 39.7309
+
+load ms, median: tiktoken-fast 143.2 | gpt-tokenizer 153.0 | tiktoken 322.3 | @goliapkg/tiktoken-wasm 252.0 | bpe-lite 642.4 | ai-tokenizer 323.7

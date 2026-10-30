@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="568" viewBox="0 0 1000 568">
+<rect width="100%" height="100%" fill="#0e0e11"/>
+<text x="40" y="48" font-family="Mulish, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="900" font-size="26" fill="#f2f2f3">New text, o200k_base</text>
+<text x="40" y="76" font-family="Mulish, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="15" fill="#a0a0a8">Each document encoded once, caches kept across documents</text>
+<rect x="300" y="92" width="12" height="12" fill="#ff8a94"/>
+<text x="318" y="103" font-family="Mulish, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="14" fill="#f2f2f3">tiktoken-fast</text>
+<rect x="436.6" y="92" width="12" height="12" fill="#8b8b93"/>
+<text x="454.6" y="103" font-family="Mulish, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="14" fill="#f2f2f3">bpe-openai</text>
+<rect x="548.6" y="92" width="12" height="12" fill="#4a4a51"/>
+<text x="566.6" y="103" font-family="Mulish, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="14" fill="#f2f2f3">TokenDagger</text>
+<line x1="300.0" y1="116" x2="300.0" y2="484" stroke="#2c2c31" stroke-width="1"/>
+<text x="300.0" y="506" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#a0a0a8">0.25x</text>
+<line x1="426.0" y1="116" x2="426.0" y2="484" stroke="#2c2c31" stroke-width="1"/>
+<text x="426.0" y="506" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#a0a0a8">0.5x</text>
+<line x1="552.0" y1="116" x2="552.0" y2="484" stroke="#2c2c31" stroke-width="1"/>
+<text x="552.0" y="506" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#a0a0a8">1x</text>
+<line x1="678.0" y1="116" x2="678.0" y2="484" stroke="#2c2c31" stroke-width="1"/>
+<text x="678.0" y="506" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#a0a0a8">2x</text>
+<line x1="804.0" y1="116" x2="804.0" y2="484" stroke="#2c2c31" stroke-width="1"/>
+<text x="804.0" y="506" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#a0a0a8">4x</text>
+<line x1="930.0" y1="116" x2="930.0" y2="484" stroke="#2c2c31" stroke-width="1"/>
+<text x="930.0" y="506" text-anchor="middle" font-family="'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" fill="#a0a0a8">8x</text>
+<text x="284" y="143.0" text-anchor="end" font-family="Mulish, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="15" fill="#f2f2f3">English prose</text>
+<rect x="552.0" y="119.5" width="127.6" height="10" fill="#ff8a94"/>
+<text x="685.6" y="128.5" font-family="'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-weight="600" font-size="12" fill="#f2f2f3">2.0x</text>
+<rect x="552.0" y="132.5" width="2.6" height="10" fill="#8b8b93"/>
+<rect x="389.1" y="145.5" width="162.9" height="10" fill="#4a4a51"/>
+<text x="284" y="189.0" text-anchor="end" font-family="Mulish, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="15" fill="#f2f2f3">Source code</text>
+<rect x="552.0" y="165.5" width="237.3" height="10" fill="#ff8a94"/>
+<text x="795.3" y="174.5" font-family="'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-weight="600" font-size="12" fill="#f2f2f3">3.7x</text>
+<rect x="552.0" y="178.5" width="69.9" height="10" fill="#8b8b93"/>
+<rect x="431.4" y="191.5" width="120.6" height="10" fill="#4a4a51"/>
+<text x="284" y="235.0" text-anchor="end" font-family="Mulish, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="15" fill="#f2f2f3">Chinese</text>
+<rect x="552.0" y="211.5" width="288.5" height="10" fill="#ff8a94"/>
+<text x="846.5" y="220.5" font-family="'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-weight="600" font-size="12" fill="#f2f2f3">4.9x</text>
+<rect x="552.0" y="224.5" width="110.7" height="10" fill="#8b8b93"/>
+<rect x="433.1" y="237.5" width="118.9" height="10" fill="#4a4a51"/>
+<text x="284" y="281.0" text-anchor="end" font-family="Mulish, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="15" fill="#f2f2f3">Japanese, Korean</text>
+<rect x="552.0" y="257.5" width="207.1" height="10" fill="#ff8a94"/>
+<text x="765.1" y="266.5" font-family="'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-weight="600" font-size="12" fill="#f2f2f3">3.1x</text>
+<rect x="552.0" y="270.5" width="123.2" height="10" fill="#8b8b93"/>
+<rect x="436.1" y="283.5" width="115.9" height="10" fill="#4a4a51"/>
+<text x="284" y="327.0" text-anchor="end" font-family="Mulish, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="15" fill="#f2f2f3">German, French, Spanish, Russian</text>
+<rect x="552.0" y="303.5" width="115.9" height="10" fill="#ff8a94"/>
+<text x="673.9" y="312.5" font-family="'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-weight="600" font-size="12" fill="#f2f2f3">1.9x</text>
+<rect x="552.0" y="316.5" width="37.6" height="10" fill="#8b8b93"/>
+<rect x="401.5" y="329.5" width="150.5" height="10" fill="#4a4a51"/>
+<text x="284" y="373.0" text-anchor="end" font-family="Mulish, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="15" fill="#f2f2f3">Arabic, Hindi, Thai</text>
+<rect x="552.0" y="349.5" width="161.6" height="10" fill="#ff8a94"/>
+<text x="719.6" y="358.5" font-family="'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-weight="600" font-size="12" fill="#f2f2f3">2.4x</text>
+<rect x="552.0" y="362.5" width="122.4" height="10" fill="#8b8b93"/>
+<rect x="375.2" y="375.5" width="176.8" height="10" fill="#4a4a51"/>
+<text x="284" y="419.0" text-anchor="end" font-family="Mulish, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="15" fill="#f2f2f3">Chat-sized messages</text>
+<rect x="552.0" y="395.5" width="107.9" height="10" fill="#ff8a94"/>
+<text x="665.9" y="404.5" font-family="'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-weight="600" font-size="12" fill="#f2f2f3">1.8x</text>
+<rect x="552.0" y="408.5" width="37.6" height="10" fill="#8b8b93"/>
+<rect x="402.8" y="421.5" width="149.2" height="10" fill="#4a4a51"/>
+<text x="284" y="465.0" text-anchor="end" font-family="Mulish, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="15" fill="#f2f2f3">Low-repetition text</text>
+<rect x="552.0" y="441.5" width="195.6" height="10" fill="#ff8a94"/>
+<text x="753.6" y="450.5" font-family="'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace" font-weight="600" font-size="12" fill="#f2f2f3">2.9x</text>
+<rect x="552.0" y="454.5" width="67.1" height="10" fill="#8b8b93"/>
+<line x1="552.0" y1="110" x2="552.0" y2="484" stroke="#f2f2f3" stroke-width="2"/>
+<text x="40" y="538" font-family="Mulish, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="13" fill="#a0a0a8">Speed-up over tiktoken on one core, log scale. Identical token ids in every run.</text>
+<text x="40" y="556" font-family="Mulish, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-weight="700" font-size="13" fill="#a0a0a8">TokenDagger has only a Python API and is measured against tiktoken's Python package.</text>
+</svg>

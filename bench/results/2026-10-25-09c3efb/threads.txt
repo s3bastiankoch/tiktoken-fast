@@ -1,0 +1,6 @@
+cl100k threads 1: tiktoken-rs    12.7 MB/s | ours    41.3 MB/s (3.25x) | bpe-openai    22.1 MB/s (1.74x)
+cl100k threads 2: tiktoken-rs    20.5 MB/s | ours    77.1 MB/s (3.75x) | bpe-openai    40.0 MB/s (1.95x)
+cl100k threads 4: tiktoken-rs    26.3 MB/s | ours   111.7 MB/s (4.25x) | bpe-openai    57.7 MB/s (2.20x)
+o200k threads 1: tiktoken-rs    15.0 MB/s | ours    33.7 MB/s (2.26x) | bpe-openai    20.7 MB/s (1.39x)
+o200k threads 2: tiktoken-rs    26.5 MB/s | ours    65.8 MB/s (2.48x) | bpe-openai    39.3 MB/s (1.48x)
+o200k threads 4: tiktoken-rs    37.1 MB/s | ours    96.5 MB/s (2.60x) | bpe-openai    59.8 MB/s (1.61x)

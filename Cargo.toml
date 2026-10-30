@@ -1,0 +1,28 @@
+[package]
+name = "tiktoken-fast"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Byte-pair encoder for OpenAI's tiktoken vocabularies: the token ids of the reference core, several times faster"
+repository = "https://github.com/s3bastiankoch/tiktoken-fast"
+readme = "README.md"
+keywords = ["tokenizer", "tiktoken", "bpe", "openai", "llm"]
+categories = ["text-processing", "encoding"]
+include = ["/src/**", "/assets/**", "/Cargo.toml", "/README.md", "/LICENSE", "/NOTICE"]
+
+[lib]
+name = "tiktoken_fast"
+
+[dependencies]
+base64 = "0.22"
+regex-syntax = "0.8"
+rayon = "1.10"
+
+[dev-dependencies]
+tiktoken-rs = "0.12.1"
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+panic = "abort"
